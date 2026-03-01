@@ -1,0 +1,31 @@
+  277  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  278  grep PHP wilders.csv > php_france_2019.csv
+  279  ls
+  280  cat php_france_2019.csv 
+  281  grep JavaScript wilders.csv > javascript.csv
+  282  grep Biarritz javascript.csv > biarritz.csv
+  283  grep Toulouse javascript.csv > toulouse.csv
+  284  ls
+  285  cat toulouse
+  286  cat toulouse.csv
+  287  cat biarritz.csv toulouse.csv | sort -u
+  288  ls
+  289  cat biarritz.csv toulouse.csv | sort -u | javascript_biarritz_toulouse.csv
+  290  touch javascript_biarritz_toulouse.csv
+  291  ls
+  292  cat biarritz.csv toulouse.csv | sort -u | javascript_biarritz_toulouse.csv
+  293  cat biarritz.csv toulouse.csv > javascript_biarritz_toulouse.csv | sort -u
+  294  ls
+  295  cat javascript_biarritz_toulouse.csv 
+  296  history
+  297  tail -n 60
+  298  history tail-n 60
+  299  history tail -n 60
+  300  tail -n 60 history
+  301  history | tail -n 24 > history.txt
+  302  ls
+  303  cat history.txt 
+  304  history
+  305  history | tail -n 28 > history.txt
+  306  cat history.txt 
+  307  history | tail -n 31 > history.txt
